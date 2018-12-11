@@ -1,0 +1,20 @@
+
+
+select {
+    border-radius: 10px;
+    background-color: rgb(204, 204, 243);
+}
+
+.btn {
+    border-radius: 10px;
+    background-color: rgb(138, 214, 138);
+    margin-bottom: 15px
+}
+
+.btn:hover {
+    background-color: rgb(89, 206, 85)
+}
+
+.btn:active {
+    background-color: rgb(140, 226, 69)
+}

@@ -1,0 +1,200 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Kevin",
+      "password": "fukurou30",
+      "email": "kevin.liem30@gmail.com"
+    },
+    {
+      "id": 2,
+      "username": "Liem",
+      "password": "fukurou30",
+      "email": "kevin.fukurou@gmail.com"
+    },
+    {
+      "username": "testregister",
+      "email": "test@register.com",
+      "phone": "658102030",
+      "password": "test123",
+      "id": 3
+    },
+    {
+      "username": "Joni",
+      "email": "joni@gaa.com",
+      "phone": "46464",
+      "password": "sasd",
+      "id": 4
+    },
+    {
+      "username": "admin",
+      "email": "admin@admin.com",
+      "phone": "9999999",
+      "password": "admin",
+      "id": 5
+    }
+  ],
+  "produk": [
+    {
+      "nama": "Ni oH",
+      "merk": "Koei Tecmo",
+      "harga": 650000,
+      "img": "http://i.imgur.com/GJZ2vKG.jpg",
+      "description": "Game Develop by Team Ninja",
+      "id": 1
+    },
+    {
+      "nama": "Xenoblade Chronicle 2",
+      "merk": "Nintendo",
+      "harga": 800000,
+      "img": "https://vignette.wikia.nocookie.net/nintendo/images/5/5b/Xenoblade_Chronicles_2_Special_Edition_box.png/revision/latest?cb=20171107182503&path-prefix=en",
+      "description": "JRPG RTA",
+      "id": 2
+    },
+    {
+      "nama": "Red Dead Redemption 2",
+      "merk": "Rockstar",
+      "harga": 780000,
+      "img": "https://pbs.twimg.com/media/DcCvps4U8AAK2m-.jpg",
+      "description": "GTA sebagai Cowboy",
+      "id": 3
+    },
+    {
+      "nama": "Warrior Orochi 4",
+      "merk": "Koei Tecmo",
+      "harga": 690000,
+      "img": "https://images-na.ssl-images-amazon.com/images/I/91Kv1V%2BDZhL._SY445_.jpg",
+      "description": "Seri lanjutan Warrior orochi 3",
+      "id": 4
+    },
+    {
+      "nama": "Devil May Cry 5",
+      "merk": "",
+      "harga": 50000,
+      "img": "https://cdn.gamerant.com/wp-content/uploads/devil-may-cry-5-box-art-ps4-366x410.jpg.optimal.jpg",
+      "description": "Status : PO\nHarga : TBA\nRelease Date : TBA 2019",
+      "id": 5
+    }
+  ],
+  "cart": [
+    {
+      "nama": "Ni oH",
+      "harga": 650000,
+      "user": "Kevin",
+      "qty": 2,
+      "totalharga": 1300000,
+      "img": "http://i.imgur.com/GJZ2vKG.jpg",
+      "id": 1
+    },
+    {
+      "nama": "Xenoblade Chronicle 2",
+      "harga": 800000,
+      "user": "Kevin",
+      "qty": 2,
+      "totalharga": 1600000,
+      "img": "https://vignette.wikia.nocookie.net/nintendo/images/5/5b/Xenoblade_Chronicles_2_Special_Edition_box.png/revision/latest?cb=20171107182503&path-prefix=en",
+      "id": 2
+    },
+    {
+      "nama": "Warrior Orochi 4",
+      "harga": 690000,
+      "user": "Kevin",
+      "qty": 1,
+      "totalharga": 690000,
+      "img": "https://images-na.ssl-images-amazon.com/images/I/91Kv1V%2BDZhL._SY445_.jpg",
+      "id": 3
+    }
+  ],
+  "history": [
+    {
+      "user": "admin",
+      "time": "16:12:30 / 11/12/2018",
+      "totalqty": 4,
+      "totalharga": 3010000,
+      "detail": [
+        {
+          "nama": "Ni oH",
+          "harga": 650000,
+          "user": "admin",
+          "qty": 1,
+          "totalharga": 650000,
+          "img": "http://i.imgur.com/GJZ2vKG.jpg",
+          "id": 1
+        },
+        {
+          "nama": "Xenoblade Chronicle 2",
+          "harga": 800000,
+          "user": "admin",
+          "qty": 1,
+          "totalharga": 800000,
+          "img": "https://vignette.wikia.nocookie.net/nintendo/images/5/5b/Xenoblade_Chronicles_2_Special_Edition_box.png/revision/latest?cb=20171107182503&path-prefix=en",
+          "id": 2
+        },
+        {
+          "nama": "Red Dead Redemption 2",
+          "harga": 780000,
+          "user": "admin",
+          "qty": 2,
+          "totalharga": 1560000,
+          "img": "https://pbs.twimg.com/media/DcCvps4U8AAK2m-.jpg",
+          "id": 3
+        }
+      ],
+      "id": 1
+    },
+    {
+      "user": "admin",
+      "time": "16:46:13 / 11/12/2018",
+      "totalqty": 5,
+      "totalharga": 3700000,
+      "detail": [
+        {
+          "nama": "Ni oH",
+          "harga": 650000,
+          "user": "admin",
+          "qty": 2,
+          "totalharga": 1300000,
+          "img": "http://i.imgur.com/GJZ2vKG.jpg",
+          "id": 1
+        },
+        {
+          "nama": "Xenoblade Chronicle 2",
+          "harga": 800000,
+          "user": "admin",
+          "qty": 3,
+          "totalharga": 2400000,
+          "img": "https://vignette.wikia.nocookie.net/nintendo/images/5/5b/Xenoblade_Chronicles_2_Special_Edition_box.png/revision/latest?cb=20171107182503&path-prefix=en",
+          "id": 2
+        }
+      ],
+      "id": 2
+    },
+    {
+      "user": "Kevin",
+      "time": "16:47:34 / 11/12/2018",
+      "totalqty": 3,
+      "totalharga": 2250000,
+      "detail": [
+        {
+          "nama": "Ni oH",
+          "harga": 650000,
+          "user": "Kevin",
+          "qty": 1,
+          "totalharga": 650000,
+          "img": "http://i.imgur.com/GJZ2vKG.jpg",
+          "id": 1
+        },
+        {
+          "nama": "Xenoblade Chronicle 2",
+          "harga": 800000,
+          "user": "Kevin",
+          "qty": 2,
+          "totalharga": 1600000,
+          "img": "https://vignette.wikia.nocookie.net/nintendo/images/5/5b/Xenoblade_Chronicles_2_Special_Edition_box.png/revision/latest?cb=20171107182503&path-prefix=en",
+          "id": 2
+        }
+      ],
+      "id": 3
+    }
+  ]
+}
